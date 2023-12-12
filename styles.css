@@ -172,7 +172,45 @@ aside ul {
 #index-aside ul {
   padding: unset;
   height: unset;
-  position: fixed;
+  position: absolute;
   top: 249px;
   left: 44px;
+}
+
+.index-container {
+  padding-left: 22px;
+  display: flex;
+  flex-direction: column;
+  width: 951px;
+}
+
+.index-container h2 {
+  color: #4F4F4F;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 561px;
+}
+
+.align-right {
+  display: flex;
+  justify-content: right;
+}
+
+.align-left {
+  display: flex;
+  justify-content: left;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+}
+
+.index-container img {
+  width: 951px;
+  height: 607px;
+  flex-shrink: 0;
 }
